@@ -1,20 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <MainInput />
+    <router-view/>
   </div>
 </template>
-
-<script>
-import MainInput from './components/MainInput';
-
-export default {
-  name: 'app',
-  components: {
-    MainInput
-  }
-}
-</script>
 
 <style>
 #app {
